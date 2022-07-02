@@ -9,4 +9,9 @@
 
 - El desarrollo del juego procura seguir las mecánicas del mismo presentado en 1985 por Nintendo, dentro de su posibilidad.
 
+#### Muestra de Super Mario Bros en entorno Unity
+
 [![Muestra de Super Mario Bros en entorno Unity](https://github.com/HansGV1/Super-Mario-Bros---Hans-Garcia/blob/Super-Marrio-Bros/Im%C3%A1gen%20Videojuego.png "Muestra de Super Mario Bros en entorno Unity")](https://github.com/HansGV1/Super-Mario-Bros---Hans-Garcia/blob/Super-Marrio-Bros/Im%C3%A1gen%20Videojuego.png "Muestra de Super Mario Bros en entorno Unity")
+
+- Se hace uso de las herramientas: Animation y Animator esto permite crear una dinámica para los props, 1-up, mejoras como hongos, monedas y elementos principales como el player y enemies.
+- Se usa de manera organiza la herramienta Tilemap Palette y tilemap en sí, se elabora el scenery y background correspondiente con los packages y assets usados siguiendo el diseño de Nintendo.
