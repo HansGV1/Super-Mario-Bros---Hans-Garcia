@@ -9,4 +9,4 @@
 
 - El desarrollo del juego procura seguir las mecánicas del mismo presentado en 1985 por Nintendo, dentro de su posibilidad.
 
-[![Muestra de Super Mario Bros en entorno Unity] (https://github.com/HansGV1/Super-Mario-Bros---Hans-Garcia/blob/Super-Marrio-Bros/Im%C3%A1gen%20Videojuego.png "Muestra de Super Mario Bros en entorno Unity")](https://github.com/HansGV1/Super-Mario-Bros---Hans-Garcia/blob/Super-Marrio-Bros/Im%C3%A1gen%20Videojuego.png "Muestra de Super Mario Bros en entorno Unity")
+[![Muestra de Super Mario Bros en entorno Unity](https://github.com/HansGV1/Super-Mario-Bros---Hans-Garcia/blob/Super-Marrio-Bros/Im%C3%A1gen%20Videojuego.png "Muestra de Super Mario Bros en entorno Unity")](https://github.com/HansGV1/Super-Mario-Bros---Hans-Garcia/blob/Super-Marrio-Bros/Im%C3%A1gen%20Videojuego.png "Muestra de Super Mario Bros en entorno Unity")
