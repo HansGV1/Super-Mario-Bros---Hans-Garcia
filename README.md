@@ -1,4 +1,4 @@
-# Super-Mario-Bros---Hans-Garcia
+# Super Mario Bros - Hans García
  Trabajo Final Introducción a los Videojuegos
 
 - En este trabajo se desarrolla de acuerdo con los conceptos aprendidos en clase el juego Super Mario Bros. Se hace uso de recursos, así como de su desarrollo en 2D.
@@ -9,4 +9,4 @@
 
 - El desarrollo del juego procura seguir las mecánicas del mismo presentado en 1985 por Nintendo, dentro de su posibilidad.
 
-[![Muestra de Super Mario Bros en entorno Unity] (https://github.com/HansGV1/Super-Mario-Bros---Hans-Garcia/blob/Super-Marrio-Bros/Im%C3%A1gen%20Videojuego.png)
+[![Muestra de Super Mario Bros en entorno Unity] (https://github.com/HansGV1/Super-Mario-Bros---Hans-Garcia/blob/Super-Marrio-Bros/Im%C3%A1gen%20Videojuego.png)]
