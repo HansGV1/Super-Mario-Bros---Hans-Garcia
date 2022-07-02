@@ -15,7 +15,7 @@
 
 #### Release v1.0
 
-[Release!](https://github.com/HansGV1/Super-Mario-Bros---Hans-Garcia/releases/tag/v1.0)
+[Release!](https://github.com/HansGV1/Super-Mario-Bros---Hans-Garcia/releases/tag/v1.0.1)
 
 - Se hace uso de las herramientas: Animation y Animator esto permite crear una dinámica para los props, 1-up, mejoras como hongos, monedas y elementos principales como el player y enemies.
 - Se usa de manera organiza la herramienta Tilemap Palette y tilemap en sí, se elabora el scenery y background correspondiente con los packages y assets usados siguiendo el diseño de Nintendo.
