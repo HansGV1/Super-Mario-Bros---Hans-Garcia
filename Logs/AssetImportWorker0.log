@@ -1,0 +1,517 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.5f1 (40eb3a945986) revision 4254522'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit CoreSingleLanguage' Language: 'es' Physical Memory: 7549 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\2021.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Unity/Unity Projects/Super Mario Bros - Hans García
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61159
+Successfully changed project path to: D:/Unity/Unity Projects/Super Mario Bros - Hans García
+D:/Unity/Unity Projects/Super Mario Bros - Hans García
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 77.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.5f1 (40eb3a945986)
+[Subsystems] Discovering subsystems at path D:/2021.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/Unity Projects/Super Mario Bros - Hans García/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f99)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   30.0.15.1259
+Initialize mono
+Mono path[0] = 'D:/2021.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'D:/2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56772
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001441 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 56.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.604 seconds
+Domain Reload Profiling:
+	ReloadAssembly (604ms)
+		BeginReloadAssembly (68ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (430ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (108ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (243ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (56ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (129ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004341 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 52.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.139 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1139ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (892ms)
+			LoadAssemblies (154ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (197ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (431ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (38ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (52ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (225ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.33 seconds
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2465 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (55.4 KB). Loaded Objects now: 2925.
+Memory consumption went from 111.3 MB to 111.2 MB.
+Total: 3.751700 ms (FindLiveObjects: 0.413600 ms CreateObjectMapping: 0.121400 ms MarkObjects: 3.078200 ms  DeleteObjects: 0.136200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 62237.487891 seconds.
+  path: Assets/Assets/Base pack/preview.png
+  artifactKey: Guid(5dbd92c66f7a4a64e9165c743e6b1887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Base pack/preview.png using Guid(5dbd92c66f7a4a64e9165c743e6b1887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '784994c6657d6ba1f95d8d5a804e08ed') in 0.335131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets/Base pack/bg_castle.png
+  artifactKey: Guid(6a48e4880f6943e468514729de40d9ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Base pack/bg_castle.png using Guid(6a48e4880f6943e468514729de40d9ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ee2a0f33c44ee636afce79a669c44a7') in 0.635272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.448492 seconds.
+  path: Assets/Packages/Prefabs/Champiñon.prefab
+  artifactKey: Guid(eab478ca581e6e8448146fc02d4eb41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Prefabs/Champiñon.prefab using Guid(eab478ca581e6e8448146fc02d4eb41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e61988a5ed2f3996e634713915dfb6') in 0.162206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.965418 seconds.
+  path: Assets/Packages/Sprites/characters.gif
+  artifactKey: Guid(b459a8981e9f6a44e8135f231ce545f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Sprites/characters.gif using Guid(b459a8981e9f6a44e8135f231ce545f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2811b8589470a5fa27d82d1f16bbc3a4') in 0.810194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Packages/Tilemap/houseBeigeAlt2.png
+  artifactKey: Guid(4107b62d5ffaba9488fecef1d5b14a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Tilemap/houseBeigeAlt2.png using Guid(4107b62d5ffaba9488fecef1d5b14a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc7543aeca383e190d12d3d6a1535b38') in 0.020020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Packages/Tilemap/awningGreen.png
+  artifactKey: Guid(64c258c20045b624cba882bbe71816fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Tilemap/awningGreen.png using Guid(64c258c20045b624cba882bbe71816fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71bdfb3b6241c1e75d14f65d64d537d3') in 0.016533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Packages/Tilemap/houseBeigeTopRight.png
+  artifactKey: Guid(8ed5a69d16e3eff4085798cf527c571b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Tilemap/houseBeigeTopRight.png using Guid(8ed5a69d16e3eff4085798cf527c571b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8edd7080130235e3acb49938c87f1fee') in 0.016845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Packages/Tilemap/houseBeigeAlt.png
+  artifactKey: Guid(dd42db2c6da3bd945ab93c742a3ab11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Tilemap/houseBeigeAlt.png using Guid(dd42db2c6da3bd945ab93c742a3ab11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '124afa5fa83dfdd8dfbdd68697a82e03') in 0.017735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Packages/Tilemap/houseDarkTopLeft.png
+  artifactKey: Guid(3937ba26aa468ce498affd6fb9392841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Tilemap/houseDarkTopLeft.png using Guid(3937ba26aa468ce498affd6fb9392841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e323d74211fe2f4675a6a113a85b678c') in 0.017172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Packages/Tilemap/houseGrayBottomLeft.png
+  artifactKey: Guid(2d20f56437772604d94dbddb391a1180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Tilemap/houseGrayBottomLeft.png using Guid(2d20f56437772604d94dbddb391a1180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4977506c3498af95d298668e5366aac') in 0.017369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Packages/Tilemap/houseGrayBottomMid.png
+  artifactKey: Guid(a5cd1b53d4113dd44b6c7e8196b8b3d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Tilemap/houseGrayBottomMid.png using Guid(a5cd1b53d4113dd44b6c7e8196b8b3d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6fed32a6c6dcd2424cd0f865b8edea4') in 0.017664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Packages/Tilemap/doorOpen.png
+  artifactKey: Guid(c3ad8f8afe53c914284c1630ef0b5172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Tilemap/doorOpen.png using Guid(c3ad8f8afe53c914284c1630ef0b5172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f6412ece87b2548bc6966e5f4aa278') in 0.019787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Packages/Tilemap/houseGray.png
+  artifactKey: Guid(5e2d2e2baa89ff84f818c09e6ca135f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Tilemap/houseGray.png using Guid(5e2d2e2baa89ff84f818c09e6ca135f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c07b1481d2ea3b8c843aa7026ccfee2') in 0.013531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Packages/Tilemap/houseGrayAlt.png
+  artifactKey: Guid(45500b8ea8e0b944fb5e3e618de0ec00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Tilemap/houseGrayAlt.png using Guid(45500b8ea8e0b944fb5e3e618de0ec00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a80f997528527c7ff32a2f947dcecf5') in 0.016210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Packages/Tilemap/houseBeigeTopLeft.png
+  artifactKey: Guid(f4692eee849169d4d98e8d99b08b1bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Tilemap/houseBeigeTopLeft.png using Guid(f4692eee849169d4d98e8d99b08b1bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36da4ceb04180136a8e319e54b2c196d') in 0.014755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Packages/Tilemap/houseDarkBottomLeft.png
+  artifactKey: Guid(4b846873f3dd12f4e8788f1c5b98212e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Tilemap/houseDarkBottomLeft.png using Guid(4b846873f3dd12f4e8788f1c5b98212e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77c3ec63f27d8db40ab8c9136ece022c') in 0.012877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Packages/Tilemap/houseDarkMidLeft.png
+  artifactKey: Guid(324a55597ab229a43ac4882ecc276ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Tilemap/houseDarkMidLeft.png using Guid(324a55597ab229a43ac4882ecc276ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b14210c2200356b6e46e58b2d020a136') in 0.016834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Packages/Tilemap/clock.png
+  artifactKey: Guid(fc4c18a8b437664458100ffda9bdae3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Tilemap/clock.png using Guid(fc4c18a8b437664458100ffda9bdae3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d96b8e31b0f7b6711ec332a634c435b') in 0.099383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Packages/Tilemap/chimneyLow.png
+  artifactKey: Guid(acc8ded24b2b02740af7e48dcd285a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Tilemap/chimneyLow.png using Guid(acc8ded24b2b02740af7e48dcd285a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ca417d822b4ac38f7fdbb4a2e20f44') in 0.015626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Packages/Tilemap/houseGrayBottomRight.png
+  artifactKey: Guid(f0399ceb004d6b94da0688a2511a0b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Tilemap/houseGrayBottomRight.png using Guid(f0399ceb004d6b94da0688a2511a0b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88eeccc101234eab512c339eb3077613') in 0.016907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Packages/Tilemap Palette/boxCoin_disabled.png
+  artifactKey: Guid(bb11b85de201b4040842f66c295225e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Tilemap Palette/boxCoin_disabled.png using Guid(bb11b85de201b4040842f66c295225e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7fd4216d86c62a35be1d4c24fffc255') in 0.015187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Packages/Tilemap Palette/boxExplosiveAlt.png
+  artifactKey: Guid(d67e2d69bf3c75b4994de1f05d5ecb72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Tilemap Palette/boxExplosiveAlt.png using Guid(d67e2d69bf3c75b4994de1f05d5ecb72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85df9c3007192fb355e9edec067e5f21') in 0.016623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Packages/Tilemap Palette/dirtCliffRight.png
+  artifactKey: Guid(f05e951e1d200d241ba70b5e72ebb425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Tilemap Palette/dirtCliffRight.png using Guid(f05e951e1d200d241ba70b5e72ebb425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '754b55d29860ba557c81427124bcf821') in 0.033781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Packages/Tilemap Palette/boxItem.png
+  artifactKey: Guid(89e10b3175dee5543a2e9d317a0779b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Tilemap Palette/boxItem.png using Guid(89e10b3175dee5543a2e9d317a0779b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac321a02618e24217c6a66babc0378df') in 0.015970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Packages/Tilemap Palette/castleLeft.png
+  artifactKey: Guid(92f4b721feb342e4c8567e7de498e404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Tilemap Palette/castleLeft.png using Guid(92f4b721feb342e4c8567e7de498e404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '503c149adeaeff2b0bce239576ee511f') in 0.018043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Packages/Tilemap Palette/castleRight.png
+  artifactKey: Guid(640b08d789e778f4f84729c264fe2631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Tilemap Palette/castleRight.png using Guid(640b08d789e778f4f84729c264fe2631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31d27caed4cef5b5bc20cc34efb82305') in 0.112703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Packages/Tilemap Palette/castleHillLeft.png
+  artifactKey: Guid(c8eb5c98b2775e14383decf082ceb192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Tilemap Palette/castleHillLeft.png using Guid(c8eb5c98b2775e14383decf082ceb192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e06ad573f833e9915240e5862103b3d') in 0.190882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Packages/Tilemap Palette/boxItemAlt.png
+  artifactKey: Guid(444e61676a6e0204aa1dcbce13873099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Tilemap Palette/boxItemAlt.png using Guid(444e61676a6e0204aa1dcbce13873099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '644e9165da8bb783a2658eab9b5072ed') in 0.081147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Packages/Tilemap Palette/castleCliffRight.png
+  artifactKey: Guid(bc74524cfc087a44eb2d22ac09dc14a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Tilemap Palette/castleCliffRight.png using Guid(bc74524cfc087a44eb2d22ac09dc14a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5a7f01862097d6b222bc965a7b96693') in 0.019481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Packages/Tilemap Palette/boxAlt.png
+  artifactKey: Guid(d1f314b21b73ed846894b72ffc3786d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Tilemap Palette/boxAlt.png using Guid(d1f314b21b73ed846894b72ffc3786d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a00f1cec2a75e67967b4e84354e4f0ca') in 0.030251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Packages/Tilemap Palette/castleHillLeft2.png
+  artifactKey: Guid(638af802b54accf41acd1f61c2fc3005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Tilemap Palette/castleHillLeft2.png using Guid(638af802b54accf41acd1f61c2fc3005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b68c04b258b454da79490c2465d0329') in 0.164935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Packages/Tilemap Palette/castleCliffRightAlt.png
+  artifactKey: Guid(4d1d1d090df73924398a7ca430436f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Tilemap Palette/castleCliffRightAlt.png using Guid(4d1d1d090df73924398a7ca430436f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b1b3450294f4b58906307f2c4a2adfd') in 0.048762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Packages/Tilemap Palette/castleMid.png
+  artifactKey: Guid(5fd59bce76e8ec84f87f770afd03ec63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Tilemap Palette/castleMid.png using Guid(5fd59bce76e8ec84f87f770afd03ec63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deee033b87c813eab35246c01c6d181e') in 0.018304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Packages/Tilemap Palette/boxCoinAlt_disabled.png
+  artifactKey: Guid(279143bf84ff9734bb89f16a9db82475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Tilemap Palette/boxCoinAlt_disabled.png using Guid(279143bf84ff9734bb89f16a9db82475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88779cbb9a1ae234c87c5718f7726ea0') in 0.096911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Packages/Tilemap Palette/dirt.png
+  artifactKey: Guid(b9d4a657e5ac5b04eb6368b134eeb82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Tilemap Palette/dirt.png using Guid(b9d4a657e5ac5b04eb6368b134eeb82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a27ce9b5f0b2ed9dd8d61d4e10d017b9') in 0.020933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Packages/Tilemap Palette/boxCoinAlt.png
+  artifactKey: Guid(9352af56cfca56749995619ef02ce89f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Tilemap Palette/boxCoinAlt.png using Guid(9352af56cfca56749995619ef02ce89f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcfcd5238965a881199ddc5d099746c4') in 0.046795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Packages/Tilemap Palette/dirtCenter_rounded.png
+  artifactKey: Guid(314d49168e266e14d900375ad78a9bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Tilemap Palette/dirtCenter_rounded.png using Guid(314d49168e266e14d900375ad78a9bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75ba04feedd30f0b3b0a4bceee68d765') in 0.031071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Packages/Tilemap Palette/boxItemAlt_disabled.png
+  artifactKey: Guid(e4fa53ecf41061a47841a8deb7dd84c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Tilemap Palette/boxItemAlt_disabled.png using Guid(e4fa53ecf41061a47841a8deb7dd84c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2134272d362e8b3f678109884fa70e5') in 0.020961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Packages/Tilemap/houseBeigeMidRight.png
+  artifactKey: Guid(a3a9968d7400cc84c833c8b19a2c4ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Tilemap/houseBeigeMidRight.png using Guid(a3a9968d7400cc84c833c8b19a2c4ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06675da85af1f0ecefc252bb40b46230') in 0.020388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Packages/Tilemap/houseDarkTopRight.png
+  artifactKey: Guid(3d69b6e6b39fa2f4a8e54ce521bd40c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Tilemap/houseDarkTopRight.png using Guid(3d69b6e6b39fa2f4a8e54ce521bd40c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f759167d38ce6ae1358105de3cc49b42') in 0.059463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Packages/Tilemap Palette/castle.png
+  artifactKey: Guid(b257681647c0ef14a8b2ecb7a51de923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Tilemap Palette/castle.png using Guid(b257681647c0ef14a8b2ecb7a51de923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22c9e41965ce1cf94e0305a6a78cd34e') in 0.020511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Packages/Tilemap/fenceLow.png
+  artifactKey: Guid(e3b55a69f12a52543bab0e340a703924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Tilemap/fenceLow.png using Guid(e3b55a69f12a52543bab0e340a703924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75080c99fe1b5f3fdc4d5db899182d25') in 0.095209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Packages/Tilemap/chimney.png
+  artifactKey: Guid(dd04ca8efd16faa4c92c701fc2346b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Tilemap/chimney.png using Guid(dd04ca8efd16faa4c92c701fc2346b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '463c2db811738a9ed639ae6c1dad89a6') in 0.019064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Packages/Tilemap Palette/castleHalfRight.png
+  artifactKey: Guid(1179943bebb47a4498c188ba137ea76d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Tilemap Palette/castleHalfRight.png using Guid(1179943bebb47a4498c188ba137ea76d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72829b3b56114b429afbe1bc421dcc26') in 0.114718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Packages/Tilemap/doorLock.png
+  artifactKey: Guid(df95a31561b5c5b4bb9283bd7c6b3992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Tilemap/doorLock.png using Guid(df95a31561b5c5b4bb9283bd7c6b3992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f866176a856523612910dca6cc4b3ea') in 0.040602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Packages/Tilemap/doorWindowTop.png
+  artifactKey: Guid(f98d7bdd04b40c140b094311d657ed10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Tilemap/doorWindowTop.png using Guid(f98d7bdd04b40c140b094311d657ed10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc246598be1a999981a7d344c5db4a21') in 0.153753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Packages/Tilemap/houseBeigeBottomRight.png
+  artifactKey: Guid(f9089281a5b497149b076282f7b499ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Tilemap/houseBeigeBottomRight.png using Guid(f9089281a5b497149b076282f7b499ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8984c12fbb34e6e898bdb37b85b3fce') in 0.190256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Packages/Tilemap Palette/castleHillRight.png
+  artifactKey: Guid(4bcf85246b9fa90468487ae3c547940e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Tilemap Palette/castleHillRight.png using Guid(4bcf85246b9fa90468487ae3c547940e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41d66cb87161b3e72df71e0e20e5e8f0') in 0.226216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Packages/Tilemap Palette/boxExplosive_disabled.png
+  artifactKey: Guid(b5f93359d7f5be849aab1bdd898b7d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Tilemap Palette/boxExplosive_disabled.png using Guid(b5f93359d7f5be849aab1bdd898b7d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d657dbbdbdefdd691f5429e356f8d8c') in 0.117051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Packages/Tilemap Palette/castleLedgeRight.png
+  artifactKey: Guid(e05f5ac55999cb948a2bbf2424816d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Tilemap Palette/castleLedgeRight.png using Guid(e05f5ac55999cb948a2bbf2424816d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5efc9854511201934a1a02cf4702cbd') in 0.150075 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003662 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.991 seconds
+Domain Reload Profiling:
+	ReloadAssembly (992ms)
+		BeginReloadAssembly (144ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (735ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (211ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (332ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (208ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2454 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (24.6 KB). Loaded Objects now: 2999.
+Memory consumption went from 114.7 MB to 114.7 MB.
+Total: 3.548500 ms (FindLiveObjects: 0.307900 ms CreateObjectMapping: 0.088300 ms MarkObjects: 3.126400 ms  DeleteObjects: 0.024000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

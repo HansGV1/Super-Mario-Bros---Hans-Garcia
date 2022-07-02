@@ -1,0 +1,1651 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.5f1 (40eb3a945986) revision 4254522'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit CoreSingleLanguage' Language: 'es' Physical Memory: 7549 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\2021.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker21
+-projectPath
+D:/Unity/Unity Projects/Super Mario Bros - Hans García
+-logFile
+Logs/AssetImportWorker21.log
+-srvPort
+63660
+Successfully changed project path to: D:/Unity/Unity Projects/Super Mario Bros - Hans García
+D:/Unity/Unity Projects/Super Mario Bros - Hans García
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 59.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.5f1 (40eb3a945986)
+[Subsystems] Discovering subsystems at path D:/2021.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/Unity Projects/Super Mario Bros - Hans García/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f99)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   30.0.15.1259
+Initialize mono
+Mono path[0] = 'D:/2021.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'D:/2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56152
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001256 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 53.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.592 seconds
+Domain Reload Profiling:
+	ReloadAssembly (593ms)
+		BeginReloadAssembly (71ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (422ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (106ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (234ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (53ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (129ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003137 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 62.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.997 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3998ms)
+		BeginReloadAssembly (172ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (65ms)
+		EndReloadAssembly (3653ms)
+			LoadAssemblies (2463ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (344ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (722ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (63ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (404ms)
+				ProcessInitializeOnLoadMethodAttributes (177ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.39 seconds
+Refreshing native plugins compatible for Editor in 1.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2465 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (55.4 KB). Loaded Objects now: 2925.
+Memory consumption went from 111.3 MB to 111.3 MB.
+Total: 4.869800 ms (FindLiveObjects: 0.512000 ms CreateObjectMapping: 0.233100 ms MarkObjects: 4.014100 ms  DeleteObjects: 0.108900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 61496.681164 seconds.
+  path: Assets/Packages/Tilemap/roofRedTopLeft.png
+  artifactKey: Guid(7febc8fa3cb0305499debce20f95e6ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap/roofRedTopLeft.png using Guid(7febc8fa3cb0305499debce20f95e6ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ab61ded04c9f9ea13d740dc92751034b') in 0.545779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Packages/Tilemap Palette/grassCliffLeftAlt.png
+  artifactKey: Guid(dfc6f09f9737d03449654780e331c4e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap Palette/grassCliffLeftAlt.png using Guid(dfc6f09f9737d03449654780e331c4e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3194da3ce71ee42dab82e838aa8f8006') in 0.223988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Packages/Sprites/Star.controller
+  artifactKey: Guid(741b17cbf5970ac43a88b34dee447eae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Sprites/Star.controller using Guid(741b17cbf5970ac43a88b34dee447eae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8c7329e2ca59e9f9c9a7ef09d7ddce9d') in 0.117609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Packages/Tilemap Palette/castleHillLeft2.png
+  artifactKey: Guid(638af802b54accf41acd1f61c2fc3005) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap Palette/castleHillLeft2.png using Guid(638af802b54accf41acd1f61c2fc3005) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ff611a0e091d37ffd4149c3b43f2499b') in 0.162438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Packages/Tilemap/windowHighCheckeredBottom.png
+  artifactKey: Guid(0466489b5ead638429ddc2ced3d7a40f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap/windowHighCheckeredBottom.png using Guid(0466489b5ead638429ddc2ced3d7a40f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '999801f0f0215f284e8436e737b2a891') in 0.292983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Packages/Tilemap Palette/castleRight.png
+  artifactKey: Guid(640b08d789e778f4f84729c264fe2631) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap Palette/castleRight.png using Guid(640b08d789e778f4f84729c264fe2631) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1f28a8f2fbb9cb1d7901f589a30d6551') in 0.384331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Packages/Tilemap/roofRedTopRight.png
+  artifactKey: Guid(8153c1b82e0926b48ac87427ba3385db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap/roofRedTopRight.png using Guid(8153c1b82e0926b48ac87427ba3385db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '32d820a48fe7802ed6a5b2ce39b6fc44') in 0.130253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Packages/Tilemap/doorOpen.png
+  artifactKey: Guid(c3ad8f8afe53c914284c1630ef0b5172) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap/doorOpen.png using Guid(c3ad8f8afe53c914284c1630ef0b5172) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd0550c89c4b6a66f51dc266c178f977e') in 0.119193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Packages/Tilemap Palette/grassCenter_rounded.png
+  artifactKey: Guid(8db3bb584c8e44943b65ffb6929d6b7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap Palette/grassCenter_rounded.png using Guid(8db3bb584c8e44943b65ffb6929d6b7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0f020f5b82c37dcdf6ef20a2de2e3404') in 0.185744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Packages/Tilemap Palette/castleHillRight2.png
+  artifactKey: Guid(4064640c30d874b4dbae9ff66ef56ad8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap Palette/castleHillRight2.png using Guid(4064640c30d874b4dbae9ff66ef56ad8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'adab090dda32e9c40e13a57b5e934dad') in 0.181333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Assets/Mushroom expansion/sample.png
+  artifactKey: Guid(286974ca313ed4b4593246c788477a51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Mushroom expansion/sample.png using Guid(286974ca313ed4b4593246c788477a51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1b7a54b3c319ed0f257f7d3aefe7fdf8') in 0.283656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Packages/Tilemap Palette/dirtMid.png
+  artifactKey: Guid(dbeb72e8a333d5342b1a72ab2b4880af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap Palette/dirtMid.png using Guid(dbeb72e8a333d5342b1a72ab2b4880af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '052ff5e9f429107e95fa6fafb4261105') in 0.472999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Packages/Tilemap Palette/boxCoin_disabled.png
+  artifactKey: Guid(bb11b85de201b4040842f66c295225e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap Palette/boxCoin_disabled.png using Guid(bb11b85de201b4040842f66c295225e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b5b7cd58431e160aa4bcd493ba758eac') in 0.588199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Packages/Tilemap/roofGreyTopMid.png
+  artifactKey: Guid(1e5d4f1ccccd382428979b8da0faac10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap/roofGreyTopMid.png using Guid(1e5d4f1ccccd382428979b8da0faac10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e213ae8a77125c2693f66472ddb003ed') in 0.218313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Packages/Tilemap/roofGreyTopRight.png
+  artifactKey: Guid(61ce8dc04ceffe540bef94aa16e5e02f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap/roofGreyTopRight.png using Guid(61ce8dc04ceffe540bef94aa16e5e02f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4ec435bced24db2c227a61371d4ba538') in 0.210515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Packages/Tilemap Palette/boxItemAlt.png
+  artifactKey: Guid(444e61676a6e0204aa1dcbce13873099) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap Palette/boxItemAlt.png using Guid(444e61676a6e0204aa1dcbce13873099) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0701cffb21e85e433c4499b4fd25e6a1') in 0.233400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Packages/Tilemap/signHangingCup.png
+  artifactKey: Guid(9e1ab057680c9ab4e973da96195b37bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap/signHangingCup.png using Guid(9e1ab057680c9ab4e973da96195b37bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7cf49e7c023f9cf1887c51a340307002') in 0.189409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Packages/Tilemap/chimney.png
+  artifactKey: Guid(dd04ca8efd16faa4c92c701fc2346b04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap/chimney.png using Guid(dd04ca8efd16faa4c92c701fc2346b04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0559f3cac797b4ef6ebd502302a67a4c') in 0.198309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Packages/Tilemap Palette/boxAlt.png
+  artifactKey: Guid(d1f314b21b73ed846894b72ffc3786d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap Palette/boxAlt.png using Guid(d1f314b21b73ed846894b72ffc3786d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1d70de3e05d9d952a8488dff02db037f') in 0.304313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Packages/Sprites/Player.controller
+  artifactKey: Guid(7800105416fe89a49b0658afd7da1895) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Sprites/Player.controller using Guid(7800105416fe89a49b0658afd7da1895) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fa89d83176799e686033f615e8351f1c') in 0.253060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Packages/Tilemap Palette/dirtCliffLeft.png
+  artifactKey: Guid(1ce305fc420521640913ef0411d66e3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap Palette/dirtCliffLeft.png using Guid(1ce305fc420521640913ef0411d66e3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c330d76a2a8456ad2e2849e1398d5fe5') in 0.205308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Packages/Tilemap/roofYellowTopMid.png
+  artifactKey: Guid(1c79460dd086b5140ac7060627da5d3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap/roofYellowTopMid.png using Guid(1c79460dd086b5140ac7060627da5d3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd12eb7e431903402cf1d9340a5feab3') in 0.620242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Packages/Tilemap Palette/castleLedgeLeft.png
+  artifactKey: Guid(9b4f7cfc851d5ae49a725929a037c5d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap Palette/castleLedgeLeft.png using Guid(9b4f7cfc851d5ae49a725929a037c5d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4528274f2738ad0d3d77642ae2dae50f') in 0.180126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Packages/Sprites/Stage 1-1_11 (2).controller
+  artifactKey: Guid(58f8e4865663ed8488e50a0adbf14444) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Sprites/Stage 1-1_11 (2).controller using Guid(58f8e4865663ed8488e50a0adbf14444) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c86f03d5f057ba81ef7b938d86f313de') in 0.116717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.003437 seconds.
+  path: Assets/Packages/Tilemap Palette/grassHalf.png
+  artifactKey: Guid(4408d3094e38dfd4d8b8436525ccdb41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap Palette/grassHalf.png using Guid(4408d3094e38dfd4d8b8436525ccdb41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ca3379492ffe13fd700736350973e52f') in 0.185105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Packages/Tilemap Palette/lock_red.png
+  artifactKey: Guid(31d80dbf9c06522488a353c1f3c94e32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap Palette/lock_red.png using Guid(31d80dbf9c06522488a353c1f3c94e32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dd29b0844181d63272475d3c2d28fd5f') in 0.116921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Packages/Tilemap Palette/snowCliffLeft.png
+  artifactKey: Guid(bc02f41269d33bd4c8a832e9f5c259ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap Palette/snowCliffLeft.png using Guid(bc02f41269d33bd4c8a832e9f5c259ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '86fe072d8b36cd5816a88626e9dcdd9e') in 0.270629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Packages/Tilemap Palette/grassMid.png
+  artifactKey: Guid(8b12ab3fc895c114bbf399160c550197) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap Palette/grassMid.png using Guid(8b12ab3fc895c114bbf399160c550197) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '72d1a7e450ffad65045ec31a843f8a04') in 0.201550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Packages/Tilemap Palette/stoneCliffLeft.png
+  artifactKey: Guid(f9292fccd570ea3429507fca920e9817) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap Palette/stoneCliffLeft.png using Guid(f9292fccd570ea3429507fca920e9817) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3a3db98ff0444e99234a40513a13eb07') in 0.042220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Packages/Tilemap Palette/snowCliffRightAlt.png
+  artifactKey: Guid(02e728fef944b6948942c4f93afc9bc7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap Palette/snowCliffRightAlt.png using Guid(02e728fef944b6948942c4f93afc9bc7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '655fb42cdeed042fa2387d721f0d22ca') in 0.265478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Assets/Base pack/Enemies/blockerBody.png
+  artifactKey: Guid(1ca48572e03ad2e48b0071fad57c63d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Base pack/Enemies/blockerBody.png using Guid(1ca48572e03ad2e48b0071fad57c63d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9787927e445ec79e853aef4103a127f2') in 0.262526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Assets/Base pack/HUD/hud_1.png
+  artifactKey: Guid(beb90a54753322e49a0e866d020ad4d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Base pack/HUD/hud_1.png using Guid(beb90a54753322e49a0e866d020ad4d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3d2f101211cafd66e386e8bf0f190054') in 0.078636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Assets/Base pack/HUD/hud_p1.png
+  artifactKey: Guid(bbe146c154ae0e94e97a744f25f1a8df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Base pack/HUD/hud_p1.png using Guid(bbe146c154ae0e94e97a744f25f1a8df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f085c5f7d95e251edf6960b9aab4e4a4') in 0.345112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Packages/Tilemap Palette/hill_largeAlt.png
+  artifactKey: Guid(e05acefba99d23b4799dce5e11e43441) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap Palette/hill_largeAlt.png using Guid(e05acefba99d23b4799dce5e11e43441) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8ac1c537e5a82627e6ee415651401b30') in 0.231787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets/Base pack/HUD/hud_p1Alt.png
+  artifactKey: Guid(ec9ce40dbdf12344d96a30fd0f41f4c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Base pack/HUD/hud_p1Alt.png using Guid(ec9ce40dbdf12344d96a30fd0f41f4c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '72a2b9992675ca070479d2389d9a0c5b') in 0.149088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets/Base pack/HUD/hud_keyGreen.png
+  artifactKey: Guid(4d6bf784678c55340957209fe554f9ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Base pack/HUD/hud_keyGreen.png using Guid(4d6bf784678c55340957209fe554f9ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0c4cabccc404710af12855628df383dc') in 0.177056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Packages/Tilemap Palette/sandCliffRight.png
+  artifactKey: Guid(e27ca5380830fc54c86368fa24edd0b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap Palette/sandCliffRight.png using Guid(e27ca5380830fc54c86368fa24edd0b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c6d8615e46dbbbf1304ca97659e57bc3') in 0.112715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Packages/Tilemap Palette/stoneCenter.png
+  artifactKey: Guid(126947b9d634ba74bb1f7228c1bce27b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap Palette/stoneCenter.png using Guid(126947b9d634ba74bb1f7228c1bce27b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'da050e9a8e45e7469a5fe9df7a6b60f0') in 0.039342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Packages/Tilemap Palette/sandHillRight.png
+  artifactKey: Guid(6cf757911a3e9bb48923af25f39c023d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap Palette/sandHillRight.png using Guid(6cf757911a3e9bb48923af25f39c023d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'be72e9b1ce76069b73b7df1b923f987d') in 0.356449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Packages/Tilemap Palette/snowLedgeRight.png
+  artifactKey: Guid(324bb63867707c243a4621b9085b6ad8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap Palette/snowLedgeRight.png using Guid(324bb63867707c243a4621b9085b6ad8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1036aeccf2259c14eb8e8040e4085936') in 0.442459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Packages/Tilemap Palette/snow.png
+  artifactKey: Guid(099055cc432ccce478d8fee472155ef4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap Palette/snow.png using Guid(099055cc432ccce478d8fee472155ef4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3e1b0f5d4a66b4d316dda866d1c8d312') in 0.415982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Packages/Tilemap Palette/ropeVertical.png
+  artifactKey: Guid(3a5848dd649e9864aaeaa8778cb2456a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap Palette/ropeVertical.png using Guid(3a5848dd649e9864aaeaa8778cb2456a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd15ecd5acb3fbd535fa39abad5b8e007') in 0.072560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Packages/Tilemap Palette/sandHillLeft2.png
+  artifactKey: Guid(c02e321e23bcbaf478b9001a045a79bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap Palette/sandHillLeft2.png using Guid(c02e321e23bcbaf478b9001a045a79bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ebc3df05923160792fda5c8f5cbc13d2') in 0.599666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets/Base pack/HUD/hud_keyGreem_disabled.png
+  artifactKey: Guid(7eb4c9d3ce55b3e49b2f88b0d4237330) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Base pack/HUD/hud_keyGreem_disabled.png using Guid(7eb4c9d3ce55b3e49b2f88b0d4237330) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1acc2c4e8ae27ce36da2c535e02f313b') in 4.884959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Assets/Base pack/HUD/hud_gem_yellow.png
+  artifactKey: Guid(d5e68670143d7cb45beb6493c4b24de5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Base pack/HUD/hud_gem_yellow.png using Guid(d5e68670143d7cb45beb6493c4b24de5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ea2670d739c931fd3798691fb788585e') in 1.278266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Packages/Tilemap Palette/stoneRight.png
+  artifactKey: Guid(08c0c693edd51e644a058ab0fa3c30b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap Palette/stoneRight.png using Guid(08c0c693edd51e644a058ab0fa3c30b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '71f90d08bc640eeb5e7c8282e55bfac0') in 2.268358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Assets/Base pack/Items/keyBlue.png
+  artifactKey: Guid(89be4ae71e387184f9c65271a31bd1be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Base pack/Items/keyBlue.png using Guid(89be4ae71e387184f9c65271a31bd1be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '33d311700b948f55a9613f7ff3e81286') in 0.201296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets/Base pack/Items/gemGreen.png
+  artifactKey: Guid(a7589bf5003cec44c8eeea3f5edcf05a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Base pack/Items/gemGreen.png using Guid(a7589bf5003cec44c8eeea3f5edcf05a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f89218d1f35a83b7ffc7d7b6bc5e6026') in 0.262121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Assets/Base pack/Items/flagYellowHanging.png
+  artifactKey: Guid(66f7c54b41f6c6e40970e76683f3ffcc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Base pack/Items/flagYellowHanging.png using Guid(66f7c54b41f6c6e40970e76683f3ffcc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e36fb4aee854796a047d695c5663bab0') in 0.112535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets/Base pack/Items/flagRed.png
+  artifactKey: Guid(d6d26e111a488074c95eb3ffaf6ed5d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Base pack/Items/flagRed.png using Guid(d6d26e111a488074c95eb3ffaf6ed5d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '822e8cfaf4caa9d39785e85f9e099f2d') in 0.319462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/Base pack/Items/particleBrick1b.png
+  artifactKey: Guid(57a001ed8d4a8a5449e609f7b1254107) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Base pack/Items/particleBrick1b.png using Guid(57a001ed8d4a8a5449e609f7b1254107) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '117f3b6543139bada3ddbe18e3515f7a') in 0.161769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Assets/Base pack/Items/particleBrick1a.png
+  artifactKey: Guid(888f8cf7100db8941b288d272e18f9e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Base pack/Items/particleBrick1a.png using Guid(888f8cf7100db8941b288d272e18f9e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ffa005750f3312f068bef35ae8137e3a') in 0.242436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Assets/Base pack/Items/buttonBlue.png
+  artifactKey: Guid(77923c4979fe80e4ea231b92c49645ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Base pack/Items/buttonBlue.png using Guid(77923c4979fe80e4ea231b92c49645ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c3d02ac2c84a6d5b840e9356fdaf7e36') in 0.152542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Assets/Base pack/Items/spikes.png
+  artifactKey: Guid(2c68babd20179dc45ba3cf9dbccf0501) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Base pack/Items/spikes.png using Guid(2c68babd20179dc45ba3cf9dbccf0501) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a672c187b70475f567f43641ab1a484f') in 0.210454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scripts/Player/Saltar.anim
+  artifactKey: Guid(8222e500731739845bc0f4f56e682d07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Player/Saltar.anim using Guid(8222e500731739845bc0f4f56e682d07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c01148929f4709c955901d0587ab1221') in 0.016913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Packages/Tilemap Palette/snowCenter_rounded.png
+  artifactKey: Guid(bdda55c722ab4be44aab33c6d99ee7cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap Palette/snowCenter_rounded.png using Guid(bdda55c722ab4be44aab33c6d99ee7cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '382c87e0151b431982b00f8517c522cb') in 0.621182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Assets/Base pack/Items/weightChained.png
+  artifactKey: Guid(caba4a56ce9890e46855b9a9c4657ac4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Base pack/Items/weightChained.png using Guid(caba4a56ce9890e46855b9a9c4657ac4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8a0065eb4959761fd4a7d6c003c13f15') in 0.132643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Assets/Base pack/Items/particleBrick2a.png
+  artifactKey: Guid(53928b272e4df5d489044448a68a867c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Base pack/Items/particleBrick2a.png using Guid(53928b272e4df5d489044448a68a867c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd503ea0ed58fc1e55be1518becb2225') in 0.092373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Scripts/Player/Forward.anim
+  artifactKey: Guid(cef80cd6f8aba9d489d775c2159007f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Player/Forward.anim using Guid(cef80cd6f8aba9d489d775c2159007f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5227f0bd15e9368975eb33af853c4e63') in 0.106216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Packages/Tilemap Palette/snowCliffLeftAlt.png
+  artifactKey: Guid(91957bda195161243ad1a6c412e4107e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap Palette/snowCliffLeftAlt.png using Guid(91957bda195161243ad1a6c412e4107e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '355a3434a3ec4163460bce7ad1db7f28') in 0.323153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Assets/Base pack/Player/p1_spritesheet.txt
+  artifactKey: Guid(aea76f6039363a94590141c2307e378d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Base pack/Player/p1_spritesheet.txt using Guid(aea76f6039363a94590141c2307e378d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6f8452cb5613021bbe48150e8465ee52') in 0.977803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Assets/Base pack/Player/p3_spritesheet.png
+  artifactKey: Guid(eb66157848dfc8145bfec0eb9ce058c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Base pack/Player/p3_spritesheet.png using Guid(eb66157848dfc8145bfec0eb9ce058c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a9ff6caf47bb145142351ba5f272f935') in 0.406149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Assets/Base pack/Player/p3_spritesheet.txt
+  artifactKey: Guid(0e3e4d044dadd554a85e9cc4612f04fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Base pack/Player/p3_spritesheet.txt using Guid(0e3e4d044dadd554a85e9cc4612f04fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '74528a01d04a84b3713781b3fda30a73') in 0.118187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Packages/Tilemap Palette/stone.png
+  artifactKey: Guid(0eecf332e10a4924e870ae6d3521fa69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap Palette/stone.png using Guid(0eecf332e10a4924e870ae6d3521fa69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3ed3e846970b1d1eaec9dc28f7960ae1') in 0.073927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets/Base pack/HUD/hud_p3.png
+  artifactKey: Guid(eaf8974cf12e3e044878ee1115bc2a68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Base pack/HUD/hud_p3.png using Guid(eaf8974cf12e3e044878ee1115bc2a68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b7b2251d5816d15d2c1548b6700c80f6') in 0.205787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Packages/Tilemap Palette/grassHalfRight.png
+  artifactKey: Guid(6a9755af54611b740a812d07895001f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap Palette/grassHalfRight.png using Guid(6a9755af54611b740a812d07895001f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9d7703f55aae8b2014bf05cbebe589fb') in 0.200361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Assets/Base pack/Vector/tiles.swf
+  artifactKey: Guid(a52a91fa9d4e4f14e86586a839db9905) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Base pack/Vector/tiles.swf using Guid(a52a91fa9d4e4f14e86586a839db9905) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b3f6ed0e06e08992b4d2c4f1ab58bdbf') in 0.007969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Assets/Base pack/Items/flagBlue.png
+  artifactKey: Guid(24058d8f63ea03d43a82503881a79dcf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Base pack/Items/flagBlue.png using Guid(24058d8f63ea03d43a82503881a79dcf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e12dbc2dd032ddf6493f65ce7501b75b') in 0.241880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Assets/Candy expansion/Tiles/cakeHalfAltRight.png
+  artifactKey: Guid(a7b4cb066acfbea489cbf51a528836fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Candy expansion/Tiles/cakeHalfAltRight.png using Guid(a7b4cb066acfbea489cbf51a528836fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '948e7331c2d8e5026cb67ee0596609a1') in 1.106209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Assets/Candy expansion/Tiles/cakeLeft.png
+  artifactKey: Guid(60e9a52b8ae7f994ba2cc3788b220769) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Candy expansion/Tiles/cakeLeft.png using Guid(60e9a52b8ae7f994ba2cc3788b220769) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2b40becce4577ef8417ea29eba8f3fe0') in 0.266350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets/Candy expansion/Tiles/candyYellow.png
+  artifactKey: Guid(f74b3df15ea49cb4ca2c410b971af908) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Candy expansion/Tiles/candyYellow.png using Guid(f74b3df15ea49cb4ca2c410b971af908) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2095beaec60e15914cd8fb0bc07bc98a') in 0.166017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Packages/Tilemap Palette/liquidLava.png
+  artifactKey: Guid(3b98c297aab648a44b5c6493baf779a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap Palette/liquidLava.png using Guid(3b98c297aab648a44b5c6493baf779a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd9474c4c24c1020b93b40c3fffea5037') in 0.168094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Assets/Base pack/HUD/hud_spritesheet.xml
+  artifactKey: Guid(4324a5806bd87dd41b8152834fdf0d7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Base pack/HUD/hud_spritesheet.xml using Guid(4324a5806bd87dd41b8152834fdf0d7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ee5ed60546af87c31179697422cf9bba') in 0.175338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Assets/Candy expansion/Tiles/canePinkSmall.png
+  artifactKey: Guid(6a569b7dcecc901458e37015cdcef4b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Candy expansion/Tiles/canePinkSmall.png using Guid(6a569b7dcecc901458e37015cdcef4b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fdb31660ec359c2461fc8e72eef57e8f') in 0.339022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Assets/Candy expansion/Tiles/chocoCenter.png
+  artifactKey: Guid(277f3b919df5643419de5cba0111d913) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Candy expansion/Tiles/chocoCenter.png using Guid(277f3b919df5643419de5cba0111d913) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'efadf50aafa4f9686bad4220b488b2f0') in 0.067719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Assets/Candy expansion/Tiles/chocoHalfAlt.png
+  artifactKey: Guid(967fe024d18c01042907035fe4ae2162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Candy expansion/Tiles/chocoHalfAlt.png using Guid(967fe024d18c01042907035fe4ae2162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f2bec0ac805731f394f6292b83bf2177') in 0.097178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Scripts/Player/Idle.anim
+  artifactKey: Guid(bd19f4f76347b314ab1873fa7a8416b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Player/Idle.anim using Guid(bd19f4f76347b314ab1873fa7a8416b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fab9ba61220923b61512b023b74fd6fc') in 1.936204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Assets/Candy expansion/Tiles/chocoLedgeRight.png
+  artifactKey: Guid(d537cfc5eeeb74540bebeb61d0206253) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Candy expansion/Tiles/chocoLedgeRight.png using Guid(d537cfc5eeeb74540bebeb61d0206253) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c854f27b34b58ac667b5346e19739940') in 7.118879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Assets/Candy expansion/Tiles/cookieBrown.png
+  artifactKey: Guid(e983323ad1da54a46ac854f93e7a177b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Candy expansion/Tiles/cookieBrown.png using Guid(e983323ad1da54a46ac854f93e7a177b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '266e66eacf1265e48d4f29285bdd5283') in 1.295081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Assets/Candy expansion/Tiles/chocoHalfAltMid.png
+  artifactKey: Guid(e40dcc58c7f746c4984564952bc3d57f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Candy expansion/Tiles/chocoHalfAltMid.png using Guid(e40dcc58c7f746c4984564952bc3d57f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd67dabd26a7277555df7f852a1ade8a0') in 0.241807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Assets/Candy expansion/Tiles/cake.png
+  artifactKey: Guid(a130b3f4791dcbf45b093a2c03cb3010) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Candy expansion/Tiles/cake.png using Guid(a130b3f4791dcbf45b093a2c03cb3010) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cac18143adf9ad23b0784005ca678489') in 0.033955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/Candy expansion/Tiles/cakeLedgeRight.png
+  artifactKey: Guid(ec739c36be0509043b6388472712d9e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Candy expansion/Tiles/cakeLedgeRight.png using Guid(ec739c36be0509043b6388472712d9e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '643aeba35c66152b1b685e48675a420b') in 0.170747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Packages/Tilemap Palette/sandMid.png
+  artifactKey: Guid(6d34ab043a4e7884bbb425c706ea449a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap Palette/sandMid.png using Guid(6d34ab043a4e7884bbb425c706ea449a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '90b798d980bfbe25682e63440f8e84d5') in 0.047502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Packages/Tilemap Palette/sandCenter.png
+  artifactKey: Guid(9b431c51591241541972d287afe48c67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap Palette/sandCenter.png using Guid(9b431c51591241541972d287afe48c67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b3e03e936125df8f4b9882ce2975c5db') in 0.205878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Assets/Base pack/Player/p3_hurt.png
+  artifactKey: Guid(9ceb4e9383a0807449691486fffa0dcd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Base pack/Player/p3_hurt.png using Guid(9ceb4e9383a0807449691486fffa0dcd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '13298291affe6265423cd4fd41599f16') in 0.344982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Assets/Candy expansion/Tiles/cakeCliffLeftAlt.png
+  artifactKey: Guid(0ef01e7384eea904fb2df73abc5769e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Candy expansion/Tiles/cakeCliffLeftAlt.png using Guid(0ef01e7384eea904fb2df73abc5769e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b2d92bd3b9b80fa01cd46b8a20acb2d7') in 0.867601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets/Candy expansion/Tiles/hillCaneGreen.png
+  artifactKey: Guid(97a53fccb0090c841b30eda3162c31ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Candy expansion/Tiles/hillCaneGreen.png using Guid(97a53fccb0090c841b30eda3162c31ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b5b91e0abef90f5a8dbba0eea22d77e4') in 0.079824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Assets/Base pack/Items/coinBronze.png
+  artifactKey: Guid(3a275bb894a00c941b75f6075b073558) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Base pack/Items/coinBronze.png using Guid(3a275bb894a00c941b75f6075b073558) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '55dc25e1d41c6ee4f3051f0ab60a86d0') in 0.189201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Packages/Tilemap Palette/stoneHalf.png
+  artifactKey: Guid(ed311249752dc96458b556677ba699ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap Palette/stoneHalf.png using Guid(ed311249752dc96458b556677ba699ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3c47e12ff85dc3b2d8851950dc9d69a3') in 0.392392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Packages/Tilemap Palette/stoneCenter_rounded.png
+  artifactKey: Guid(48c41838786b57c47a8c9d81e941e929) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap Palette/stoneCenter_rounded.png using Guid(48c41838786b57c47a8c9d81e941e929) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '328c3a999f8169abf8ce14f1f613f0b6') in 0.475567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/Base pack/Vector/characters.swf
+  artifactKey: Guid(b7f52d5afeea0b343b82b381a72250f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Base pack/Vector/characters.swf using Guid(b7f52d5afeea0b343b82b381a72250f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f7d5bf51b2da1f024125913fb155b145') in 0.065219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets/Base pack/Items/cloud2.png
+  artifactKey: Guid(b175867b9672bd04a81c9ff4187c35de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Base pack/Items/cloud2.png using Guid(b175867b9672bd04a81c9ff4187c35de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b0d4b8599d35159b670bffaf4dbedb4f') in 0.169930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Packages/Tilemap Palette/stoneHillLeft2.png
+  artifactKey: Guid(4da22c8609354de45bdd2454bccd1eb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap Palette/stoneHillLeft2.png using Guid(4da22c8609354de45bdd2454bccd1eb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3f60a3b6c6571a192fa76bab043ccf18') in 0.169955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Assets/Candy expansion/Tiles/cakeHillRight2.png
+  artifactKey: Guid(79e77fd9a2148de449812bd817de1e02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Candy expansion/Tiles/cakeHillRight2.png using Guid(79e77fd9a2148de449812bd817de1e02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5043f9fcdf69a2c137bde871734fa277') in 0.367804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Packages/Tilemap Palette/snowHalfLeft.png
+  artifactKey: Guid(74f5bb51338c72945afab42ccd621a73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap Palette/snowHalfLeft.png using Guid(74f5bb51338c72945afab42ccd621a73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1458227ba1763339068fb51e68512123') in 0.114805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Assets/Base pack/Items/plant.png
+  artifactKey: Guid(de33825cbe88a0940a42d2e306faa680) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Base pack/Items/plant.png using Guid(de33825cbe88a0940a42d2e306faa680) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aa3457be6c39191dd95c3bc6695bc774') in 0.062257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets/Base pack/Items/items_spritesheet.xml
+  artifactKey: Guid(dc526e6a79f5f2744848e53bdff4432e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Base pack/Items/items_spritesheet.xml using Guid(dc526e6a79f5f2744848e53bdff4432e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9c031f9b8c1e6f0a666b07ab28c3efc2') in 0.232823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Packages/Tilemap Palette/stoneHalfRight.png
+  artifactKey: Guid(54591d361baa0b642b1b56238bbbee66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap Palette/stoneHalfRight.png using Guid(54591d361baa0b642b1b56238bbbee66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1ac9bcfa47b6064b9063c52bee712c87') in 0.364304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Assets/Extra animations and enemies/Alien sprites/alienBlue_swim2.png
+  artifactKey: Guid(706581f4debd31f46b2ea0e3c73c4465) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Extra animations and enemies/Alien sprites/alienBlue_swim2.png using Guid(706581f4debd31f46b2ea0e3c73c4465) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '475dc0b9314c28fa79276f40ab12c617') in 0.130357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets/Extra animations and enemies/Alien sprites/alienBeige_walk2.png
+  artifactKey: Guid(cfbe87b3f6f1edc40b93a9e10d115cb4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Extra animations and enemies/Alien sprites/alienBeige_walk2.png using Guid(cfbe87b3f6f1edc40b93a9e10d115cb4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b1cfcb35d89a7045141e62c950d3a430') in 0.125728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/Extra animations and enemies/Alien sprites/alienBlue_hurt.png
+  artifactKey: Guid(7e15e1876542d8c43b1143ea7c4d39f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Extra animations and enemies/Alien sprites/alienBlue_hurt.png using Guid(7e15e1876542d8c43b1143ea7c4d39f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8aea83d5afeec3c564cb7b4bd6aefa32') in 0.055797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Assets/Extra animations and enemies/Alien sprites/alienBlue_stand.png
+  artifactKey: Guid(a1c6794a15a25ad429b31b4ac214e2ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Extra animations and enemies/Alien sprites/alienBlue_stand.png using Guid(a1c6794a15a25ad429b31b4ac214e2ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b0bc2effe55156c3ef2788cb8ec9597a') in 0.019968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/Extra animations and enemies/Alien sprites/alienBeige_badge2.png
+  artifactKey: Guid(ef140d1bf2fb3974cbae49ac128ed141) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Extra animations and enemies/Alien sprites/alienBeige_badge2.png using Guid(ef140d1bf2fb3974cbae49ac128ed141) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '13b644e51fff4e396691d051aafa0c11') in 0.112292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/Candy expansion/Tiles/lollipopBasePink.png
+  artifactKey: Guid(5fe636291ba6d404e9bd1eec7ec421be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Candy expansion/Tiles/lollipopBasePink.png using Guid(5fe636291ba6d404e9bd1eec7ec421be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '53df83702d018f8a952f153364dbd178') in 0.805519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets/Extra animations and enemies/Alien sprites/alienBeige_stand.png
+  artifactKey: Guid(081a022177d056a41a4b7ec411e4ddad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Extra animations and enemies/Alien sprites/alienBeige_stand.png using Guid(081a022177d056a41a4b7ec411e4ddad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '772f4fda6ee524541455522c95ca7022') in 0.205755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/Extra animations and enemies/Alien sprites/alienBeige_climb1.png
+  artifactKey: Guid(d12363b65df3533419567369557f3f55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Extra animations and enemies/Alien sprites/alienBeige_climb1.png using Guid(d12363b65df3533419567369557f3f55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7b1d63594bd33e44861d14aa31a1590d') in 0.081269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Assets/Extra animations and enemies/Alien sprites/alienBeige_duck.png
+  artifactKey: Guid(d4c8850fd8eefa545b79163435d455dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Extra animations and enemies/Alien sprites/alienBeige_duck.png using Guid(d4c8850fd8eefa545b79163435d455dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '979bfd051eb2f2d18bb1e12fcc14aede') in 0.168111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets/Base pack/Player/p1_spritesheet.png
+  artifactKey: Guid(807920d21e7175a49b2a2450f0aae8bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Base pack/Player/p1_spritesheet.png using Guid(807920d21e7175a49b2a2450f0aae8bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '828ffe73f0b5930d49b4e61919408cd2') in 0.467048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets/Base pack/Items/mushroomBrown.png
+  artifactKey: Guid(36f79cde7e17de446bc82fa7bcd47a50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Base pack/Items/mushroomBrown.png using Guid(36f79cde7e17de446bc82fa7bcd47a50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5ae8b5d4236bafdaede2adddd3c9c434') in 0.295512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Packages/Tilemap Palette/tochLit2.png
+  artifactKey: Guid(aca755a338884c349b911f0993f560e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap Palette/tochLit2.png using Guid(aca755a338884c349b911f0993f560e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '19f526e9ac49cca15054dbdbc03028c9') in 0.412967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Packages/Tilemap Palette/hill_small.png
+  artifactKey: Guid(d9c2e6955a2e45b46922d3a19d61aaa0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap Palette/hill_small.png using Guid(d9c2e6955a2e45b46922d3a19d61aaa0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a367e0517b052e02a77f5de17c3e82d8') in 0.443252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Packages/Tilemap Palette/snowCliffRight.png
+  artifactKey: Guid(c2452e97086e5d2449fae464a7092e46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap Palette/snowCliffRight.png using Guid(c2452e97086e5d2449fae464a7092e46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd8eeda90084789830410badb7fada0e0') in 0.049734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets/Candy expansion/Tiles/gummyWormGreenEnd.png
+  artifactKey: Guid(2bb09476a8bc4f44a8cca2302dfd2e7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Candy expansion/Tiles/gummyWormGreenEnd.png using Guid(2bb09476a8bc4f44a8cca2302dfd2e7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '01c01adf10cdea0b0e8aa0d7e63fc262') in 0.041807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Packages/Tilemap Palette/snowHalfRight.png
+  artifactKey: Guid(1077f46103466ed4aade393c0e9bb7d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap Palette/snowHalfRight.png using Guid(1077f46103466ed4aade393c0e9bb7d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8169895afb3b2454835771d92bbf9d97') in 0.076964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets/Candy expansion/Tiles/candyGreen.png
+  artifactKey: Guid(eed498461baae56458038f2342949c12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Candy expansion/Tiles/candyGreen.png using Guid(eed498461baae56458038f2342949c12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'da5d82bd570ccd7acfa401118f0f9635') in 0.271078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Assets/Base pack/HUD/hud_heartHalf.png
+  artifactKey: Guid(300fb2b5614d85d4c8cdaee10dfa6566) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Base pack/HUD/hud_heartHalf.png using Guid(300fb2b5614d85d4c8cdaee10dfa6566) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c3655340f0eb120825ddb90a643a220f') in 0.096415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets/Candy expansion/Tiles/creamChoco.png
+  artifactKey: Guid(8bebfa04c06d99741945b9a7f6f60c51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Candy expansion/Tiles/creamChoco.png using Guid(8bebfa04c06d99741945b9a7f6f60c51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '45a544f004417b2e5961a7007709863e') in 0.135986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Assets/Candy expansion/Tiles/hillCaneRedTop.png
+  artifactKey: Guid(5d0eed44a182a1141a61abbd4d786893) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Candy expansion/Tiles/hillCaneRedTop.png using Guid(5d0eed44a182a1141a61abbd4d786893) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '06efe0acf08cfd2885a91146580b48fb') in 0.310078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Assets/Base pack/Items/mushroomRed.png
+  artifactKey: Guid(36870d05b4ec281498352281edea4ec0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Base pack/Items/mushroomRed.png using Guid(36870d05b4ec281498352281edea4ec0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0084a10a7a0a1203b33e3bc9938fa058') in 0.186585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets/Extra animations and enemies/Alien sprites/alienBlue_badge1.png
+  artifactKey: Guid(70e71b30a49fe094e9ad04295a81c7c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Extra animations and enemies/Alien sprites/alienBlue_badge1.png using Guid(70e71b30a49fe094e9ad04295a81c7c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '83ae0a5e6c1bd7a423f491e28823d01e') in 0.162874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets/Base pack/Enemies/snailWalk1.png
+  artifactKey: Guid(04df877d8c01f724896bfa65c304cb22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Base pack/Enemies/snailWalk1.png using Guid(04df877d8c01f724896bfa65c304cb22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '77eb52600c66231b63ac4173abc8b934') in 0.129159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets/Candy expansion/Tiles/chocoCliffRightAlt.png
+  artifactKey: Guid(4cec61d7ce2e40c449798e786022d1d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Candy expansion/Tiles/chocoCliffRightAlt.png using Guid(4cec61d7ce2e40c449798e786022d1d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '17c08d6dd446734b20fd080104c85db0') in 0.278967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Assets/Candy expansion/Tiles/cakeCliffRight.png
+  artifactKey: Guid(69f08291dabe9d94fbf638adfceef7af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Candy expansion/Tiles/cakeCliffRight.png using Guid(69f08291dabe9d94fbf638adfceef7af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4f2edd271d973c520bd69965ae35b0d8') in 0.610678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets/Extra animations and enemies/Alien sprites/alienYellow_badge1.png
+  artifactKey: Guid(9fc8831c8eeee3b4a888902948b5ba93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Extra animations and enemies/Alien sprites/alienYellow_badge1.png using Guid(9fc8831c8eeee3b4a888902948b5ba93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '50c093fdccd8db025f90333f7dcee0b4') in 0.121403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Assets/Extra animations and enemies/Enemy sprites/fishPink_swim.png
+  artifactKey: Guid(cc5a1eac300b35641a3e7cbae4424197) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Extra animations and enemies/Enemy sprites/fishPink_swim.png using Guid(cc5a1eac300b35641a3e7cbae4424197) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4c01d9899ea6a8558ae8bba61fcf278d') in 0.044549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/Extra animations and enemies/Enemy sprites/barnacle_dead.png
+  artifactKey: Guid(133e3061e095ff94d9b6f8034d24c453) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Extra animations and enemies/Enemy sprites/barnacle_dead.png using Guid(133e3061e095ff94d9b6f8034d24c453) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f4f86e8ccce4fedb234d0d02f8f4bc43') in 0.170731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Assets/Extra animations and enemies/Alien sprites/alienYellow_swim2.png
+  artifactKey: Guid(61f1a9dfb92dea1478c8ff1e589a7311) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Extra animations and enemies/Alien sprites/alienYellow_swim2.png using Guid(61f1a9dfb92dea1478c8ff1e589a7311) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '960bf8c855d890f87b60d8df91d7f736') in 0.175477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Assets/Extra animations and enemies/Enemy sprites/grassBlock_jump.png
+  artifactKey: Guid(b31e31d7b6aef0245b30f7d001ef2f25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Extra animations and enemies/Enemy sprites/grassBlock_jump.png using Guid(b31e31d7b6aef0245b30f7d001ef2f25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'efb3508d2150e05b83678c667cb07807') in 0.101250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Assets/Extra animations and enemies/Enemy sprites/bat_hang.png
+  artifactKey: Guid(1168c8c524f0ab54897b25dd10ad33ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Extra animations and enemies/Enemy sprites/bat_hang.png using Guid(1168c8c524f0ab54897b25dd10ad33ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '986524e28fe3220192b09d9f8c5b52fb') in 0.261640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets/Extra animations and enemies/Alien sprites/alienBlue_walk2.png
+  artifactKey: Guid(ab074cb7036b661488a94c07d5a26fde) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Extra animations and enemies/Alien sprites/alienBlue_walk2.png using Guid(ab074cb7036b661488a94c07d5a26fde) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8eee76708e07f89cf8474df9a628b35a') in 0.107387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Assets/Extra animations and enemies/Alien sprites/alienGreen_walk1.png
+  artifactKey: Guid(c175ac1a3ab4cf14d9d6950fc5423732) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Extra animations and enemies/Alien sprites/alienGreen_walk1.png using Guid(c175ac1a3ab4cf14d9d6950fc5423732) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5655895726725d2addeda28dff87920f') in 0.120105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets/Extra animations and enemies/Alien sprites/alienPink_climb2.png
+  artifactKey: Guid(5c8715f3ec933c64fafcecb5a99ae590) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Extra animations and enemies/Alien sprites/alienPink_climb2.png using Guid(5c8715f3ec933c64fafcecb5a99ae590) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '23ddf6c793d3ef0c9b709c6782b664da') in 0.166623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Assets/Extra animations and enemies/Enemy sprites/ladyBug_hit.png
+  artifactKey: Guid(c2726cb047c933940b287d278833508c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Extra animations and enemies/Enemy sprites/ladyBug_hit.png using Guid(c2726cb047c933940b287d278833508c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '58834a99462409ee1f25a21025699826') in 5.800190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets/Extra animations and enemies/Alien sprites/alienYellow_climb1.png
+  artifactKey: Guid(4a7f7a50f60e85147ad9c0b80482943b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Extra animations and enemies/Alien sprites/alienYellow_climb1.png using Guid(4a7f7a50f60e85147ad9c0b80482943b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2cd0c92787ea42ec57ce75aaf7ff297c') in 0.173602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets/Extra animations and enemies/Enemy sprites/bat_fly.png
+  artifactKey: Guid(560c5a49521d4184987a47405f6aa3d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Extra animations and enemies/Enemy sprites/bat_fly.png using Guid(560c5a49521d4184987a47405f6aa3d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '855691aa132bb85c3067dfa1bfbfa9ae') in 0.220747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Assets/Extra animations and enemies/Enemy sprites/mouse_dead.png
+  artifactKey: Guid(ed8c7d5774f94944b9cbd1ff426b8988) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Extra animations and enemies/Enemy sprites/mouse_dead.png using Guid(ed8c7d5774f94944b9cbd1ff426b8988) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '57d5646e308944c4b5acb199f488bcc0') in 0.355145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Assets/Extra animations and enemies/Enemy sprites/snail_walk.png
+  artifactKey: Guid(737f6c675b1ba374bb24d060c6f903f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Extra animations and enemies/Enemy sprites/snail_walk.png using Guid(737f6c675b1ba374bb24d060c6f903f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1ea63fcf2ec7d5d35f23591dab5b488c') in 0.341759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Assets/Extra animations and enemies/Enemy sprites/slimeGreen_walk.png
+  artifactKey: Guid(b9c6a1b2cf2ff8f4a89edb2571eb9ff2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Extra animations and enemies/Enemy sprites/slimeGreen_walk.png using Guid(b9c6a1b2cf2ff8f4a89edb2571eb9ff2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fded38a8225f1fa6c338b92cc181c877') in 0.279774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets/Extra animations and enemies/Enemy sprites/snail_hit.png
+  artifactKey: Guid(66d167a74380dbd4e8471a9d15bf0c19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Extra animations and enemies/Enemy sprites/snail_hit.png using Guid(66d167a74380dbd4e8471a9d15bf0c19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2bf62062e10681e21a536a61e5de7d56') in 0.147733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Assets/Extra animations and enemies/Spritesheets/alienBeige.png
+  artifactKey: Guid(a468411bc9648b44c9845ac33eb074cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Extra animations and enemies/Spritesheets/alienBeige.png using Guid(a468411bc9648b44c9845ac33eb074cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9043da94989b49df0577571138012d24') in 0.145857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/Extra animations and enemies/Spritesheets/aliens.xml
+  artifactKey: Guid(9e0d59b9750e5cd4d97964da02c9e248) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Extra animations and enemies/Spritesheets/aliens.xml using Guid(9e0d59b9750e5cd4d97964da02c9e248) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c71901f068c96ffa5144f7f8d29621a3') in 0.137325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets/Extra animations and enemies/Spritesheets/alienYellow.xml
+  artifactKey: Guid(c22614019a62d714a8b6a211f571690d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Extra animations and enemies/Spritesheets/alienYellow.xml using Guid(c22614019a62d714a8b6a211f571690d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '65879b1bdb21c2895e9fc1c576d72b70') in 0.185255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets/Extra animations and enemies/Enemy sprites/piranha_dead.png
+  artifactKey: Guid(ad744174437600d49bb5bf9885b37355) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Extra animations and enemies/Enemy sprites/piranha_dead.png using Guid(ad744174437600d49bb5bf9885b37355) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '34a562927833088cf43ffeb3edd36d74') in 0.122410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets/Extra animations and enemies/Alien sprites/alienYellow.png
+  artifactKey: Guid(10a90aa78c09a3548b5a247264c4abd2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Extra animations and enemies/Alien sprites/alienYellow.png using Guid(10a90aa78c09a3548b5a247264c4abd2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3d5ceee6cb79cecee6f3143f9ab271eb') in 0.308221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets/Extra animations and enemies/Alien sprites/alienPink.png
+  artifactKey: Guid(6b5e43e48053adf4da547fb0fd2f6756) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Extra animations and enemies/Alien sprites/alienPink.png using Guid(6b5e43e48053adf4da547fb0fd2f6756) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c73d359194228ae7c369435ff4056ac0') in 0.197671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets/Extra animations and enemies/Enemy sprites/snakeSlime_dead.png
+  artifactKey: Guid(c1cd318fcaba42048a1cf0510ee00502) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Extra animations and enemies/Enemy sprites/snakeSlime_dead.png using Guid(c1cd318fcaba42048a1cf0510ee00502) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e32674e35830b8faf7ee146dc15eae1d') in 0.022863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets/Extra animations and enemies/Enemy sprites/worm_hit.png
+  artifactKey: Guid(13ec512755fb73c4283c29a69ef1d462) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Extra animations and enemies/Enemy sprites/worm_hit.png using Guid(13ec512755fb73c4283c29a69ef1d462) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0c007697b70643fe2c6ff100271aca07') in 0.082083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Assets/Extra animations and enemies/Enemy sprites/fishPink_dead.png
+  artifactKey: Guid(7ec0257c56980124a8eb3281ba8a167a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Extra animations and enemies/Enemy sprites/fishPink_dead.png using Guid(7ec0257c56980124a8eb3281ba8a167a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '67ee7ddfcbc01c6693a4660a69543e24') in 0.236416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/Ice expansion/Tiles/caneRedSmall.png
+  artifactKey: Guid(7f59fcada426c7e418327245e7bdd132) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Ice expansion/Tiles/caneRedSmall.png using Guid(7f59fcada426c7e418327245e7bdd132) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '41637c0fcca270b56b22daab365f69cc') in 0.064745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Assets/Ice expansion/Tiles/iceBlockHalfAlt.png
+  artifactKey: Guid(2549294c61a6c774b81ca3b0417b3710) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Ice expansion/Tiles/iceBlockHalfAlt.png using Guid(2549294c61a6c774b81ca3b0417b3710) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '032a4e3172f2b17304db6c6cf40a4fd5') in 0.121735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets/Ice expansion/Tiles/iglooRoofRight.png
+  artifactKey: Guid(ca4933d06af74964c808f7693ea93f0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Ice expansion/Tiles/iglooRoofRight.png using Guid(ca4933d06af74964c808f7693ea93f0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5ea9913af10444de30bc86a05320a18b') in 0.145173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Assets/Ice expansion/Tiles/caneRedTopAlt.png
+  artifactKey: Guid(3c31ac94fb8d8e94e9d1c603fee9c86c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Ice expansion/Tiles/caneRedTopAlt.png using Guid(3c31ac94fb8d8e94e9d1c603fee9c86c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '17b5dba9ee1c267c0df8aa582bf3192f') in 0.656701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Assets/Ice expansion/Tiles/spikesBottomAlt.png
+  artifactKey: Guid(9422f76c32ca2fc40b9d6743ffb03bfa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Ice expansion/Tiles/spikesBottomAlt.png using Guid(9422f76c32ca2fc40b9d6743ffb03bfa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '181d3857be1f9bd7afbd83e156ed88d7') in 0.218686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/Extra animations and enemies/Enemy sprites/fly_dead.png
+  artifactKey: Guid(75e19b549c86ef54ca9d2d31c8b80027) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Extra animations and enemies/Enemy sprites/fly_dead.png using Guid(75e19b549c86ef54ca9d2d31c8b80027) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '86cede97d1b3ca57c8726e6aa9a2df95') in 0.125232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Assets/Extra animations and enemies/Alien sprites/alienGreen_climb2.png
+  artifactKey: Guid(468e4b5c50cf06e4da68f553f659f441) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Extra animations and enemies/Alien sprites/alienGreen_climb2.png using Guid(468e4b5c50cf06e4da68f553f659f441) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2c8ab42f41dc617ecb15cf3f0e9801ac') in 0.055723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Assets/Extra animations and enemies/Enemy sprites/spinner_dead.png
+  artifactKey: Guid(5c2edb70e1b849945b1f0ac5261ff4cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Extra animations and enemies/Enemy sprites/spinner_dead.png using Guid(5c2edb70e1b849945b1f0ac5261ff4cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a989901dc004cbfb4cb76af2ba0df5ae') in 0.272266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Assets/Ice expansion/Tiles/treeTrunkBottomAlt.png
+  artifactKey: Guid(cddc386f21bb7864e8f96964879d5624) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Ice expansion/Tiles/treeTrunkBottomAlt.png using Guid(cddc386f21bb7864e8f96964879d5624) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e8b66e39cc88084e93944e6e84e8e7fd') in 0.190813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Assets/Ice expansion/Tiles/treeBranchesLeft.png
+  artifactKey: Guid(cab2da3c014d25d479d19f18ada510d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Ice expansion/Tiles/treeBranchesLeft.png using Guid(cab2da3c014d25d479d19f18ada510d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8ab15177ac9936c48c8baa98390e62f9') in 0.048914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Assets/Extra animations and enemies/Alien sprites/alienGreen_walk2.png
+  artifactKey: Guid(fb5f8759da2969549b31e8ffd7e87ce7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Extra animations and enemies/Alien sprites/alienGreen_walk2.png using Guid(fb5f8759da2969549b31e8ffd7e87ce7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '36a755a15aef42c9acb85e7bd139d173') in 0.143740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Assets/Extra animations and enemies/Enemy sprites/snakeLava_ani.png
+  artifactKey: Guid(365cd499aa8c00d4ea7a7f093e56e242) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Extra animations and enemies/Enemy sprites/snakeLava_ani.png using Guid(365cd499aa8c00d4ea7a7f093e56e242) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '60a1dc09081f294b1ea18231c73f28c3') in 1.969228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets/Base pack/Items/gemBlue.png
+  artifactKey: Guid(284e0273575a7d444807a70fde2b515e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Base pack/Items/gemBlue.png using Guid(284e0273575a7d444807a70fde2b515e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '91b922d9c9071dfc3d0acfe73053d622') in 0.719874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets/Ice expansion/Tiles/tundraCliffRight.png
+  artifactKey: Guid(a453b6506cb59d6448310486cbb20460) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Ice expansion/Tiles/tundraCliffRight.png using Guid(a453b6506cb59d6448310486cbb20460) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f3260d18cdefd26dc0f4bcf3b39be005') in 3.617035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Assets/Ice expansion/Tiles/tundraMid.png
+  artifactKey: Guid(48c601a4599adea4c8a52165f8e818fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Ice expansion/Tiles/tundraMid.png using Guid(48c601a4599adea4c8a52165f8e818fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '72996e8f3dc409c02c01add7cccba18a') in 0.241198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets/Ice expansion/Tiles/tundraHalf.png
+  artifactKey: Guid(c8a2cb8f02dd251429ef24fd642568d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Ice expansion/Tiles/tundraHalf.png using Guid(c8a2cb8f02dd251429ef24fd642568d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1f420da4004c55a8a0479aa660392b6e') in 0.170547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Assets/Ice expansion/Tiles/tundraCenter_rounded.png
+  artifactKey: Guid(1614ec82ce8fed64a83bc9252c21f7dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Ice expansion/Tiles/tundraCenter_rounded.png using Guid(1614ec82ce8fed64a83bc9252c21f7dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3213099b7021f3fc86aba304efa5d9f9') in 0.184166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets/Mushroom expansion/PNG/shroomBrownAltMidAlt.png
+  artifactKey: Guid(889398d7e1ff32242bab16373de0cdd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Mushroom expansion/PNG/shroomBrownAltMidAlt.png using Guid(889398d7e1ff32242bab16373de0cdd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fca8638e7b243aa1a76f6310f8a03660') in 0.193798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/Mushroom expansion/Backgrounds/bg_shroom.png
+  artifactKey: Guid(15a4feee51f7e6247800205dbcf7f150) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Mushroom expansion/Backgrounds/bg_shroom.png using Guid(15a4feee51f7e6247800205dbcf7f150) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ec5ff3f98555ed8dbb086a092159642c') in 0.279008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets/Extra animations and enemies/Enemy sprites/spinnerHalf_hit.png
+  artifactKey: Guid(3a589537764ed7b489928c699820f616) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Extra animations and enemies/Enemy sprites/spinnerHalf_hit.png using Guid(3a589537764ed7b489928c699820f616) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '72151841b626208a3d3c3d80a550d1ff') in 0.309106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/Mushroom expansion/PNG/shroomBrownSpotsMidAlt.png
+  artifactKey: Guid(cf0f24232412c8d428fdfc46fb2b5b24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Mushroom expansion/PNG/shroomBrownSpotsMidAlt.png using Guid(cf0f24232412c8d428fdfc46fb2b5b24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3f1a8ed4ce122ae0950c5c3c7dfb22cd') in 0.346459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Assets/Ice expansion/Tiles/treeTrunkBranch.png
+  artifactKey: Guid(0299576793949304c8adc3661217b461) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Ice expansion/Tiles/treeTrunkBranch.png using Guid(0299576793949304c8adc3661217b461) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a22ee33b3bbe772fc4fe16fcb6d70f14') in 1.143657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets/Mushroom expansion/PNG/shroomTanAltLeft.png
+  artifactKey: Guid(ad693eeacc7c3524e8cdf05a9610569e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Mushroom expansion/PNG/shroomTanAltLeft.png using Guid(ad693eeacc7c3524e8cdf05a9610569e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'de7fe46d3c20cc45c9d050d20002de0a') in 0.329690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets/Mushroom expansion/PNG/shroomRedRight.png
+  artifactKey: Guid(9483e6ff49f2ecb4e888056d3c5a4cd8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Mushroom expansion/PNG/shroomRedRight.png using Guid(9483e6ff49f2ecb4e888056d3c5a4cd8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '238b6222c986fcc34b3422469bf047bf') in 0.782276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Assets/Mushroom expansion/PNG/shroomTanAltMidAlt.png
+  artifactKey: Guid(975789d3bd314504681ca956715a4a54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Mushroom expansion/PNG/shroomTanAltMidAlt.png using Guid(975789d3bd314504681ca956715a4a54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1bc2c55c63d00c56dc3022291dddbb03') in 0.742622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets/Mushroom expansion/PNG/stem.png
+  artifactKey: Guid(3061b75ed6bf5284ca1f47edd3f3a911) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Mushroom expansion/PNG/stem.png using Guid(3061b75ed6bf5284ca1f47edd3f3a911) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8ca7a0a0d34d3d813c1a1a59210eb311') in 1.670861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets/Mushroom expansion/PNG/stemBase.png
+  artifactKey: Guid(4def405b379fefb458bd538d9646703a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Mushroom expansion/PNG/stemBase.png using Guid(4def405b379fefb458bd538d9646703a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'af8d528c1fba52adeaeefeb438d778d5') in 0.652266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets/Mushroom expansion/PNG/stemBaseAlt.png
+  artifactKey: Guid(4e4c860250cf6da4ba6278b982d3856a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Mushroom expansion/PNG/stemBaseAlt.png using Guid(4e4c860250cf6da4ba6278b982d3856a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '609815ddd302f6916f0d0d9c100c600d') in 1.083068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Assets/Mushroom expansion/PNG/stemTopAlt.png
+  artifactKey: Guid(500b4f0ead945994e981544ae9ac86b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Mushroom expansion/PNG/stemTopAlt.png using Guid(500b4f0ead945994e981544ae9ac86b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '07bf62097df9082859755ada561f5676') in 1.570558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Assets/Mushroom expansion/PNG/Thumbs.db
+  artifactKey: Guid(bb33ec5ab4de611438bd82cf954baa57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Mushroom expansion/PNG/Thumbs.db using Guid(bb33ec5ab4de611438bd82cf954baa57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'de0a0352d3e359ac0dabb5095825629b') in 0.515927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Assets/Mushroom expansion/PNG/shroomBrownSpotsRight.png
+  artifactKey: Guid(9a96142aefac9bf4180baccf4dcdb366) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Mushroom expansion/PNG/shroomBrownSpotsRight.png using Guid(9a96142aefac9bf4180baccf4dcdb366) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a8c66541299ca91d93f2c85622af438c') in 0.437860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Assets/Extra animations and enemies/Enemy sprites/fly_hit.png
+  artifactKey: Guid(e8c2d29f442fb87459b2dec42183a5f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Extra animations and enemies/Enemy sprites/fly_hit.png using Guid(e8c2d29f442fb87459b2dec42183a5f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd3d8b33a7a2b0ff834bed9b0d3e00e4c') in 1.609070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/Extra animations and enemies/Enemy sprites/spider_walk1.png
+  artifactKey: Guid(6355816fcb6995e4295ac5231ecdd65d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Extra animations and enemies/Enemy sprites/spider_walk1.png using Guid(6355816fcb6995e4295ac5231ecdd65d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0b7332873511114a2ec3846eb0a5e867') in 0.374304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Assets/Extra animations and enemies/Alien sprites/alienPink_hurt.png
+  artifactKey: Guid(486cc7f94971b744d94c196db8de5a67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Extra animations and enemies/Alien sprites/alienPink_hurt.png using Guid(486cc7f94971b744d94c196db8de5a67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c0b7f96f8eb2ed48fd13c53f76f232e3') in 0.227519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/Ice expansion/Tiles/snowLeft.png
+  artifactKey: Guid(c787c5cb8838f594a945620598bff523) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Ice expansion/Tiles/snowLeft.png using Guid(c787c5cb8838f594a945620598bff523) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0cdeb6bb51ccea604b3803264d553bf5') in 0.419584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Assets/Ice expansion/Tiles/treeBranchesRight.png
+  artifactKey: Guid(202e39de310f89148b07c40caaa38c2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Ice expansion/Tiles/treeBranchesRight.png using Guid(202e39de310f89148b07c40caaa38c2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c59d7cf5815752082188ac2b851f53c0') in 0.156356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Assets/Ice expansion/Tiles/caneRedTop.png
+  artifactKey: Guid(9bbbef070c7388344a578ad4c94ea67e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Ice expansion/Tiles/caneRedTop.png using Guid(9bbbef070c7388344a578ad4c94ea67e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b1082c87f49b411d5070b24c2e63fe9a') in 0.426108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Assets/Ice expansion/Tiles/treeBranchesLeftSnowAlt.png
+  artifactKey: Guid(ade14ed2f33bb3c4ea0cc1ac20cfd4ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Ice expansion/Tiles/treeBranchesLeftSnowAlt.png using Guid(ade14ed2f33bb3c4ea0cc1ac20cfd4ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bb1e1b75f133b790a25f36f3390d6f64') in 0.159978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Assets/Extra animations and enemies/Enemy sprites/ladyBug_walk.png
+  artifactKey: Guid(a6b428b03f2345442a786d7f9e5d4e20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Extra animations and enemies/Enemy sprites/ladyBug_walk.png using Guid(a6b428b03f2345442a786d7f9e5d4e20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '906fe47644257db1b819dd542220b32e') in 0.131144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Assets/Mushroom expansion/PNG/bush.png
+  artifactKey: Guid(25b5c2a018f5ba44ca43332cd2b5ad3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Mushroom expansion/PNG/bush.png using Guid(25b5c2a018f5ba44ca43332cd2b5ad3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8965005380b738c74cba15adcf16037e') in 0.136511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Assets/Ice expansion/Tiles/iceBlock.png
+  artifactKey: Guid(e973fef7dacb45a48b8e1bde053ff4d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Ice expansion/Tiles/iceBlock.png using Guid(e973fef7dacb45a48b8e1bde053ff4d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '383cda1f2378b45108850087de50dae2') in 0.204945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Assets/Extra animations and enemies/Enemy sprites/snakeLava.png
+  artifactKey: Guid(b2444802f7e507b499cfbba6789fde42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Extra animations and enemies/Enemy sprites/snakeLava.png using Guid(b2444802f7e507b499cfbba6789fde42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '81a2ed43afff6df381f0a5a1ee6080ce') in 0.123129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Assets/Mushroom expansion/PNG/shroomRedAltMid.png
+  artifactKey: Guid(8a69f5a05c86f7c4ea69318d73268a3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Mushroom expansion/PNG/shroomRedAltMid.png using Guid(8a69f5a05c86f7c4ea69318d73268a3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '66aa4d58ddce729eea6ecf3326a0b964') in 0.387045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Assets/Extra animations and enemies/Enemy sprites/frog_hit.png
+  artifactKey: Guid(98ab372658f16ba41b1aacfdc777c3b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Extra animations and enemies/Enemy sprites/frog_hit.png using Guid(98ab372658f16ba41b1aacfdc777c3b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3e6cdd984a08ea7aed0bfec92a983ad0') in 0.151640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets/Extra animations and enemies/Enemy sprites/snakeSlime_hit.png
+  artifactKey: Guid(84bc90aed8022a944a02d3de34b90305) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Extra animations and enemies/Enemy sprites/snakeSlime_hit.png using Guid(84bc90aed8022a944a02d3de34b90305) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '46c74c48bfd0d6b372d6dc33173f3248') in 0.487893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets/Extra animations and enemies/Alien sprites/alienPink_jump.png
+  artifactKey: Guid(de671a89d1cfd40459efaf12ea31b030) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Extra animations and enemies/Alien sprites/alienPink_jump.png using Guid(de671a89d1cfd40459efaf12ea31b030) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eb1765096b3c0b6ad446dfb7159f3206') in 0.179486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Assets/Extra animations and enemies/Alien sprites/alienBeige_swim1.png
+  artifactKey: Guid(1ee5d86cffbc7a74ea0b2039de293f8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Extra animations and enemies/Alien sprites/alienBeige_swim1.png using Guid(1ee5d86cffbc7a74ea0b2039de293f8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0fac74dcc0b4a458a3f83c9f101a5189') in 0.140278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Assets/Candy expansion/Tiles/lollipopBase.png
+  artifactKey: Guid(c352fc7bdab75e3499bd807e4830077f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Candy expansion/Tiles/lollipopBase.png using Guid(c352fc7bdab75e3499bd807e4830077f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5ab4d78f4b38b8241bd16dea2d1fd47c') in 0.202264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets/Candy expansion/Tiles/chocoHillLeft2.png
+  artifactKey: Guid(32a2120576995234581156ff28630120) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Candy expansion/Tiles/chocoHillLeft2.png using Guid(32a2120576995234581156ff28630120) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '09cc190131d228a500ded42221463a5f') in 0.091603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets/Candy expansion/Tiles/lollipopWhiteRed.png
+  artifactKey: Guid(ab1ea15d64aacea4f9b42cdd80d88295) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Candy expansion/Tiles/lollipopWhiteRed.png using Guid(ab1ea15d64aacea4f9b42cdd80d88295) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a9fdf40f22692d7ac38647e4bd9078fe') in 0.184549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets/Base pack/Enemies/blockerSad.png
+  artifactKey: Guid(3c0ea8c6af01364459a95382dd4da85f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Base pack/Enemies/blockerSad.png using Guid(3c0ea8c6af01364459a95382dd4da85f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2f2d0988bed3a3772c2bce98f4943835') in 0.118516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/Candy expansion/Tiles/lollipopFruitRed.png
+  artifactKey: Guid(9e2ade535d1dcd14ab0b20d318c96d3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Candy expansion/Tiles/lollipopFruitRed.png using Guid(9e2ade535d1dcd14ab0b20d318c96d3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '25f294d561e68634be577d9f3f16abe1') in 0.294411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets/Extra animations and enemies/Enemy sprites/snake_hit.png
+  artifactKey: Guid(a166a3b0f2d5d5d40bbeb1b1fcfa84b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Extra animations and enemies/Enemy sprites/snake_hit.png using Guid(a166a3b0f2d5d5d40bbeb1b1fcfa84b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6bb6ea790d2f6397693cc12f8eb62d7e') in 1.126083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Packages/Tilemap Palette/sand.png
+  artifactKey: Guid(839a2c5c7c8716d429ac6b8762f9d24d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap Palette/sand.png using Guid(839a2c5c7c8716d429ac6b8762f9d24d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'be9cbb8f2be39d4ba6e46d42c62d5071') in 0.240728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/Extra animations and enemies/Alien sprites/alienBeige_swim2.png
+  artifactKey: Guid(045b37220324ed441a3b618b25aff5a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Extra animations and enemies/Alien sprites/alienBeige_swim2.png using Guid(045b37220324ed441a3b618b25aff5a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dbf5201c79b9a22b3d6926253cbbdc21') in 0.258066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Packages/Tilemap Palette/hill_large.png
+  artifactKey: Guid(9b0686010cfe73a49afa95ecc01e66bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap Palette/hill_large.png using Guid(9b0686010cfe73a49afa95ecc01e66bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '97e477c10211166afec5aa681d373e10') in 0.287553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Packages/Tilemap Palette/sign.png
+  artifactKey: Guid(a361d957946439946bb083371dc9c5c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap Palette/sign.png using Guid(a361d957946439946bb083371dc9c5c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c9e4044261bbf48456aedde2505abfd8') in 0.120034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Packages/Tilemap Palette/liquidLavaTop_mid.png
+  artifactKey: Guid(7bef91de0c0f05f4c9f2807457aebe47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap Palette/liquidLavaTop_mid.png using Guid(7bef91de0c0f05f4c9f2807457aebe47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0c3eecdfaa19ced5c43905ad2a741559') in 0.125146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Packages/Tilemap Palette/Thumbs.db
+  artifactKey: Guid(9a2aa5a81e630af4e9c32883543c89b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap Palette/Thumbs.db using Guid(9a2aa5a81e630af4e9c32883543c89b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '90f3d61674be4f92e000714d380faa2e') in 0.111714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/Ice expansion/Tiles/treeTrunkBottom.png
+  artifactKey: Guid(16e8888b41b11ac4da3438e6e52eb906) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Ice expansion/Tiles/treeTrunkBottom.png using Guid(16e8888b41b11ac4da3438e6e52eb906) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '04dd466b061f45ad5f63d81b9760f281') in 0.195761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Packages/Tilemap Palette/lock_yellow.png
+  artifactKey: Guid(7e8643ab609176446bf0dfce9378a6b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap Palette/lock_yellow.png using Guid(7e8643ab609176446bf0dfce9378a6b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cbe938e782f2ebc658bae82cc15a5721') in 0.206621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Packages/Tilemap Palette/ladder_top.png
+  artifactKey: Guid(9cde1a967781b41468c0cff8a831ab4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Packages/Tilemap Palette/ladder_top.png using Guid(9cde1a967781b41468c0cff8a831ab4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5ece94984f6d0f3c4ca214a13b2dd4b7') in 0.246468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Assets/Extra animations and enemies/Enemy sprites/slimeBlue_blue.png
+  artifactKey: Guid(abf4eb62780e49c40bae651a8c041652) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Extra animations and enemies/Enemy sprites/slimeBlue_blue.png using Guid(abf4eb62780e49c40bae651a8c041652) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8369322730836e54a038ed8449c9ad1e') in 0.243617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/Ice expansion/Tiles/treeTrunkTop.png
+  artifactKey: Guid(1c6e7285cf7643444b60559f74fefb51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Ice expansion/Tiles/treeTrunkTop.png using Guid(1c6e7285cf7643444b60559f74fefb51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8a376f15b813ecba7d7fc6ae0d996520') in 0.646030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Assets/Base pack/Items/bush.png
+  artifactKey: Guid(130a30ed098b42741a6389ec2000689a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Base pack/Items/bush.png using Guid(130a30ed098b42741a6389ec2000689a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '99fcdf76b528f10cd2ac5fe142cecbf4') in 0.337922 seconds 
+AssetImportWorkerClient::OnTransportError - code=10054 error=Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
