@@ -13,7 +13,7 @@
 
 [![Muestra de Super Mario Bros en entorno Unity](https://github.com/HansGV1/Super-Mario-Bros---Hans-Garcia/blob/Super-Marrio-Bros/Im%C3%A1gen%20Videojuego.png "Muestra de Super Mario Bros en entorno Unity")](https://github.com/HansGV1/Super-Mario-Bros---Hans-Garcia/blob/Super-Marrio-Bros/Im%C3%A1gen%20Videojuego.png "Muestra de Super Mario Bros en entorno Unity")
 
-#### Release v1.0
+#### Release v1.0.1
 
 [Release!](https://github.com/HansGV1/Super-Mario-Bros---Hans-Garcia/releases/tag/v1.0.1)
 
